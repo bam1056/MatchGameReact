@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin: 5px;
+  border: 3px solid black;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url('http://www.highreshdwallpapers.com/wp-content/uploads/2013/03/Middle-Earth.jpg');
+}
+h1 {
+  font-family: cursive;
+  font-size: 7em;
+  color: gold;
+  text-shadow: 6px 6px 10px goldenrod;
+  border-bottom: 3px solid gold;
+  border-top: 3px solid gold;
+}
